@@ -26,17 +26,41 @@ In meeting the minimum viable product (MVP) specifications listed below, you sho
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
-Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
+
+
+Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
+#########################################################################################
 1. Describe the biggest difference between `.forEach` & `.map`.
+
+forEach doesn't return anything and the callback may modify the calling array. map doesn't change the calling array and returns a new array object
 
 2. What is the difference between a function and a method?
 
+methods are functions within objects
+
 3. What is closure?
+
+closure is a function within an object along with the all the variables that were in scope when it was created.
 
 4. Describe the four rules of the 'this' keyword.
 
+  A. With global binding the this refers to the window or console
+
+  B. With implicit binding this refers to the calling object listed before the dot
+
+  C. With new binding this refers to a new object created through a constructor function using the new keyword
+
+  D. With explicit binding this is defined by using call, bind or apply methods
+
 5. Why do we need super() in an extended class?
+
+super passes the incoming arguments to the parent class' constructor
+
+#########################################################################################
+
+
+
 
 ## Project Set up
 
@@ -85,3 +109,5 @@ In your solutions, it is essential that you follow best practices and produce cl
 ## Stretch Problems
 
 There are a few stretch problems found throughout the files, don't work on them until you are finished with MVP requirements!
+
+Steve-Morehead Pensacola, FL
